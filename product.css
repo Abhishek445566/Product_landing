@@ -1,0 +1,133 @@
+body{
+  background-image:linear-gradient(90deg,rgba(100,100,100,0.1),rgba(100,100,100,0.1)),url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHWB9Djg5T6hIiWpa7Ew2p7FRVWWsToIUZgA&usqp=CAU"); 
+  background-size:cover;
+  background-position:fixed;
+}
+
+header{
+  position:fixed;
+  display:flex;
+ margin-left:-10px;
+  width:100%;
+  height:80px;
+ margin-top:-100px;
+ background-color:rgba(0,0,0,0.3);
+}
+#header-img{
+ width:240px; 
+}
+header ul{
+  display:flex;
+  margin-top:0px;
+margin-left:200px;}
+header li{
+  padding:30px;
+  list-style:none;
+}
+a{
+  color:white;
+  text-decoration:none;
+  font-size:20px;
+}
+#video{
+  width:100%;
+ margin-left:1px;
+  height:600px;
+}
+p{
+  color:rgb(200,200,200);
+  font-size:100px;
+  font-family:Piedra; 
+  text-align:center;
+}
+iframe{
+  margin-left:250px;
+}
+#content{
+  margin-top:100px;
+}
+section {
+  color:white;
+  margin-top:80px;
+}
+section > h1{
+  font-size:100px;
+  color:rgb(200,200,10);
+  font-family:Piedra;
+}
+section > ul{
+  font-size:30px;
+  font-color:gray;
+}
+#how-it-works{
+  color:white;
+  width:100px;
+}
+#form{
+  margin-top:100px;
+  margin-left:40%;
+}
+label{
+  color:white;
+}
+#submit{
+  margin-left:16%;
+  margin-top:20px;
+ background-color:yellow;
+  width:10%;
+  
+}
+#email{
+  width:30%;
+}
+.grid {
+  display: flex;
+}
+
+.img-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+.img-price > p1{
+  color:white;
+  font-size:30px;
+}
+.img-price > img{
+  width:100px;
+}
+
+.img-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(100%  / 3);
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+}
+#pricing{
+  display:flex;
+}
+footer{
+  background-color:rgba(0,0,0,0.5);
+}
+footer ul,span{
+  display:flex;
+justify-content:right;
+}
+footer li{
+  padding:10px;
+  list-style:none;
+}
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
